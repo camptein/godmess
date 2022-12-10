@@ -5,5 +5,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(PORT, () => {
-    console.log('Running on http://localhost:', process.env.NODE_ENV);
+    console.log('Running on http://localhost:');
 });

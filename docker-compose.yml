@@ -1,8 +1,0 @@
-version: '3'
-services:
-  echo-server:
-    image: camptein/singforko
-    environment:
-      - ENABLE__ENVIRONMENT=false
-    ports:
-      - 23323:23323

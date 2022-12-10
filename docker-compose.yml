@@ -1,7 +1,7 @@
 version: '3'
 services:
   echo-server:
-    image: ealen/echo-server:latest
+    image: camptein/singforko:latest
     environment:
       - ENABLE__ENVIRONMENT=false
     ports:

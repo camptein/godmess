@@ -1,8 +1,15 @@
 version: '3'
 services:
   echo-server:
-    image: camptein/singforko:latest
+    image: ealen/echo-server:latest
     environment:
       - ENABLE__ENVIRONMENT=false
     ports:
-      - 443:443
+      - 6969:80
+
+  echo-server2:
+    image: ealen/echo-server:latest
+    environment:
+      - ENABLE__ENVIRONMENT=false
+    ports:
+      - 7070:80

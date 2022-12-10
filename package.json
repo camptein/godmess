@@ -1,11 +1,12 @@
-{ 
-    "name": "hello-docker", 
-    "version": "1.0.2",
-    "description": "", 
-    "author": "May",
-    "main": "app.js",   
-    "scripts": {
-      "dev": "NODE_ENV=dev node app.js",
-      "pro": "NODE_ENV=pro node app.js"
-    }
+{
+  "name": "v2ray",
+  "version": "0.0.0",
+  "description": "v2ray in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lsong",
+  "license": "MIT"
 }

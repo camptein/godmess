@@ -13,7 +13,7 @@ const preFetch = (req, res, next) => {
 
 app.use('/api', preFetch, createProxyMiddleware({
   target: 'http://localhost:6969', changeOrigin: true, pathRewrite: {
-    '^/api/': '/'
+    '^/app/': '/'
   }
 }));
-app.listen(3000);
+app.listen(443);
